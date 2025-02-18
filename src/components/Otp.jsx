@@ -14,7 +14,7 @@ const Otp = () => {
     e.preventDefault()
     try {
 
-      const response = await axios.post('http://localhost:3000/Email/verify-otp', {
+      const response = await axios.post('https://exam-sample-backend.onrender.com/Email/verify-otp', {
         email,
         otp
       })
