@@ -16,7 +16,7 @@ const Email = () => {
       return
     }
     try {
-      const response = await axios.post('http://localhost:3000/Email/send-otp', { email })
+      const response = await axios.post('https://exam-sample-backend.onrender.com/Email/send-otp', { email })
       console.log('Email submitted successfully:', response.data)
       navigate('/otp', { state: { email } });
 
