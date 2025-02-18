@@ -32,7 +32,7 @@ const Otp = () => {
         <div className="col-md-6">
           <div className="card">
             <div className="card-body">
-              <h2 className="card-title text-center mb-4">OTP Verification</h2>
+              <h2 className="card-title text-center mb-4">Enter Your OTP</h2>
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="otp" className="form-label">OTP Code</label>
